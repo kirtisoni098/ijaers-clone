@@ -1,0 +1,997 @@
+/* golbal  */
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    /* font-size: 14px; */
+    line-height: 1.15;
+}
+
+
+/* upper header  */
+
+.upper {
+    background-color: rgb(243, 241, 241);
+    width: 100%;
+    height: 200px;
+}
+
+table ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+table ul li {
+    display: inline;
+    /* float: right; */
+    margin: 0px 25px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    /* border: 2px solid; */
+}
+
+table ul li a {
+    text-decoration: none;
+}
+
+.line {
+    margin: 15px 25px 0px 80px;
+}
+
+.header {
+    margin: 0px 150px 0px 150px;
+}
+
+
+/* 
+table ul li .dec {
+    margin-top: 100px;
+} */
+
+table tr td img {
+    width: 230px;
+    padding: 15px;
+}
+
+span {
+    margin: 0px 5px;
+}
+
+
+/* navbar */
+
+.navbar {
+    margin: 0px 160px 0px 170px;
+}
+
+.navbar tr th a {
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-size: 13px;
+}
+
+.navbar tr {
+    background-color: #06506B;
+    /* background-color: rgb(173, 170, 170); */
+}
+
+
+/* .navbar tr:hover {
+    background-color: rgb(173, 170, 170);
+} */
+
+.navbar tr th a:hover {
+    color: black;
+    /* background-color: rgb(173, 170, 170); */
+}
+
+
+/* fixed */
+
+.sticky {
+    margin-top: 100px;
+    position: fixed;
+}
+
+
+/* lower body */
+
+.lowerbody {
+    /* border: 2px solid red; */
+    display: flex;
+    height: 270vh;
+    /* align-items: center; */
+    /* margin-left: 100px; */
+}
+
+.sideleft {
+    margin: 15px 0px 0px 250px;
+    /* border: 4px solid; */
+    width: 220px;
+    height: 250vh;
+    background-color: rgb(234, 227, 227);
+}
+
+.sideleft p {
+    text-transform: uppercase;
+    background-color: #06506B;
+    text-align: center;
+    border-radius: 5px;
+    padding: 5px;
+    width: 190px;
+    height: 20px;
+    color: white;
+    margin-top: 0px;
+}
+
+.sideleft pre a {
+    text-transform: capitalize;
+    color: #06506B;
+    font-weight: bold;
+    text-decoration: none;
+    margin-bottom: 1px;
+}
+
+.sideleft pre p {
+    font-size: 15px;
+}
+
+pre a:hover {
+    text-decoration: underline;
+}
+
+.sideleft hr {
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.sideleft p {
+    /* margin-top: 10px; */
+    margin-bottom: 10px;
+}
+
+.fa-x-twitter {
+    color: blue;
+}
+
+.sideleft pre button {
+    width: 150px;
+    height: 50px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border: none;
+    background-color: #0784b1;
+}
+
+
+/* lower middle */
+
+.mid {
+    /* border: 2px solid;  */
+    height: 290vh;
+    width: 533px;
+    margin: 15px 20px;
+}
+
+.mid pre {
+    font-size: 15px;
+}
+
+.undline {
+    text-decoration: underline;
+}
+
+.indented {
+    padding-left: 10pt;
+    padding-right: 5px;
+    font-size: 15px;
+    display: block;
+}
+
+.pera {
+    display: flex;
+}
+
+.pera1 {
+    margin-left: 20px;
+}
+
+
+/* mission and scope middle */
+
+#missmid pre p {
+    background-color: #06506B;
+    color: white;
+    border-radius: 10px;
+    height: 35px;
+    text-align: center;
+    text-decoration: underline;
+}
+
+#missmid p {
+    padding-top: 7px;
+    text-align: justify;
+}
+
+#missmid p a {
+    text-decoration: none;
+    color: #0b688a;
+}
+
+#missmid p a:hover {
+    text-decoration: underline;
+}
+
+
+/* editorial */
+
+.editorial {
+    /* border: 2px solid; */
+    width: 900px;
+    margin-left: 15px;
+    height: 1800px;
+    text-align: justify;
+}
+
+.editorial pre {
+    /* margin-left: 10px; */
+    /* border: 2px solid; */
+    margin-left: 25px;
+}
+
+.editorial p {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+
+/* .editorial p ul li {
+    margin-top: 10px;
+    margin-bottom: 50px;
+} */
+
+.merg li {
+    margin-bottom: 8px;
+}
+
+.deco {
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+
+/* issues */
+
+
+/* .issues {
+    border: 2px solid #06506B;
+} */
+
+.hea p {
+    color: maroon;
+    margin-left: 30px;
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.hea h5 {
+    text-align: center;
+}
+
+.sec1 span a {
+    color: rgb(101, 179, 206);
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.sec1 span a:hover {
+    text-decoration: underline;
+}
+
+.sec1 p {
+    font-size: 15px;
+}
+
+.sec1 img {
+    width: 50px;
+    margin-left: 5px;
+}
+
+#down {
+    float: right;
+    margin-right: 20px;
+    margin-top: 30px;
+}
+
+#h44 {
+    text-decoration: none;
+    color: black;
+}
+
+#h44 a:hover {
+    text-decoration: underline;
+}
+
+
+/* archive */
+
+.archive {
+    /* border: 2px solid; */
+    width: 550px;
+    height: 5450px;
+}
+
+.linkss {
+    /* border: 2px solid; */
+    width: 510px;
+    height: 30px;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-left: 10px;
+    padding-top: 10px;
+    text-align: center;
+    background-color: rgb(208, 198, 198);
+}
+
+.linkss a {
+    color: black;
+    text-decoration: none;
+}
+
+.linkss a:hover {
+    color: white;
+}
+
+.linkss:hover {
+    background-color: #06506B;
+    color: white;
+}
+
+.arc2 {
+    margin-top: 3600px;
+}
+
+
+/* .arc3 {
+    margin-top: 500px;
+} */
+
+
+/* conference */
+
+.vol {
+    /* border: 2px solid; */
+    height: 380vh;
+    text-align: justify;
+}
+
+.vol a {
+    color: #0784b1;
+    text-decoration: none;
+}
+
+.vol a:hover {
+    text-decoration: underline;
+}
+
+.conf {
+    margin-top: 1000px;
+}
+
+
+/* indexing */
+
+.indo {
+    /* border: 2px solid; */
+    height: 1700px;
+}
+
+#indpera {
+    font-size: 20px;
+    color: maroon;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.kittu5 a {
+    text-decoration: none;
+    color: blue;
+    line-height: 1.5;
+}
+
+.kittu5 a:hover {
+    text-decoration: underline;
+}
+
+.inxs {
+    margin-top: -80px;
+}
+
+
+/* submit manuscript */
+
+.submanuscript {
+    width: 600px;
+    height: 900px;
+    /* border: 2px solid; */
+}
+
+.submanuscript ul li {
+    list-style-type: none;
+}
+
+.submanuscript form {
+    display: block;
+}
+
+.submanuscript form label {
+    display: block;
+    width: 160px;
+    float: left;
+    padding: 8px 5px 0 0;
+    text-transform: uppercase;
+}
+
+ul li .emailbox {
+    width: 350px;
+    border: 1px solid #7d7a7a;
+    padding: 10px 20px;
+    color: #000;
+}
+
+.submanuscript form .submit {
+    background: #03354E;
+    padding: 10px 0;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    width: 381px;
+}
+
+.hhh a {
+    text-decoration: none;
+    color: blue;
+}
+
+.hhh a:hover {
+    text-decoration: underline;
+}
+
+
+/* contact us  */
+
+.contactus {
+    width: 610px;
+    height: 900px;
+}
+
+.contactus ul li {
+    list-style-type: none;
+}
+
+.contactus form {
+    display: block;
+}
+
+.contactus form label {
+    display: block;
+    width: 160px;
+    float: left;
+    padding: 8px 5px 0 0;
+    text-transform: uppercase;
+}
+
+.contactus form .submit {
+    background: #03354E;
+    padding: 10px 0;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    width: 381px;
+}
+
+
+/* lowerright  */
+
+.sideright {
+    /* margin: 10px 170px 0px 600px; */
+    /* border: 4px solid; */
+    background-color: rgb(234, 227, 227);
+    width: 200px;
+    height: 580px;
+    margin-top: 15px;
+}
+
+.sideright p {
+    text-transform: uppercase;
+    background-color: #06506B;
+    text-align: center;
+    /* border-radius: 5px; */
+    padding: 5px;
+    width: 190px;
+    height: 70px;
+    color: white;
+    margin-top: 0px;
+}
+
+.siderigtht p input {
+    margin-top: 30px;
+    height: 30px;
+}
+
+.sideright p .sec {
+    width: 143px;
+    margin-top: 10px;
+    height: 25px;
+}
+
+.sideright pre a {
+    text-transform: capitalize;
+    color: #06506B;
+    font-weight: bold;
+    text-decoration: none;
+    margin-bottom: 1px;
+}
+
+pre a:hover {
+    text-decoration: underline;
+}
+
+.sideright hr {
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.slider {
+    width: 600;
+    margin-left: 20px;
+}
+
+marquee {
+    margin-left: 160px;
+    margin-right: 150px;
+}
+
+
+/* footer  */
+
+.footer {
+    /* width: 100%; */
+    height: 300px;
+    /* border: 2px solid #06506B; */
+    display: flex;
+}
+
+.midfooter {
+    width: 70%;
+    height: 288px;
+    /* border: 2px solid #0784b1; */
+    margin-top: 10px;
+    margin-left: 250px;
+    background-color: #06506B;
+    border-radius: 10px;
+    display: flex;
+    /* justify-content: center; */
+}
+
+#merfoot {
+    width: 250px;
+    height: 210px;
+    /* border: 3px solid white; */
+    margin-top: 15px;
+    margin-left: 40px;
+}
+
+.lfoot pre a {
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+.lfoot pre a:hover {
+    text-decoration: underline;
+}
+
+.midfoot pre {
+    font-size: 14px;
+}
+
+.midfoot pre span {
+    color: white;
+    font-size: 20px;
+}
+
+#des2 {
+    color: #75cae9;
+    font-size: 15px;
+}
+
+#des3 a {
+    color: #0784b1;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+
+/* rearch gate  */
+
+.rearchgate {
+    text-align: justify;
+}
+
+.rec1 {
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+    /* border: 2px solid; */
+    width: 800px;
+}
+
+.cont3 {
+    width: 900px;
+    height: 840px;
+    /* border: 2px solid; */
+    font-size: 15px;
+}
+
+.gg {
+    margin-top: -170px;
+}
+
+.gg p a {
+    color: #06506B;
+    text-decoration: none;
+}
+
+.gg p a:hover {
+    text-decoration: underline;
+}
+
+
+/* instruction to author  */
+
+.auth {
+    /* border: 2px solid; */
+    width: 600px;
+    height: 1500px;
+    line-height: 1.5;
+    text-align: justify;
+}
+
+.auth a {
+    text-decoration: none;
+    color: #0784b1;
+}
+
+.auth a:hover {
+    text-decoration: underline;
+}
+
+.auth ol li {
+    margin-left: 30px;
+}
+
+
+/* peer and review  */
+
+.peer {
+    font-size: 14px;
+    line-height: 1.5;
+    text-align: justify;
+}
+
+.peer pre p {
+    text-decoration: none;
+    background-color: #06506B;
+    color: white;
+    border-radius: 10px;
+    height: 35px;
+    text-align: center;
+    /* margin-top: 10px; */
+    padding-top: 12px;
+}
+
+.peer span {
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.peer a {
+    color: #0784b1;
+    text-decoration: none;
+}
+
+.peer a:hover {
+    text-decoration: underline;
+}
+
+
+/* plagarism */
+
+.plag {
+    font-size: 15px;
+    line-height: 2.0;
+    text-align: justify;
+}
+
+.plag span {
+    font-weight: bold;
+}
+
+.plag a {
+    text-decoration: none;
+    color: #0784b1;
+}
+
+.plag a:hover {
+    text-decoration: underline;
+}
+
+
+/* publication */
+
+.publ1 {
+    /* border: 2px solid; */
+    height: 3200px;
+    text-align: justify;
+}
+
+.publ1 pre p {
+    text-decoration: none;
+    background-color: #06506B;
+    color: white;
+    border-radius: 10px;
+    height: 35px;
+    text-align: center;
+    padding-top: 12px;
+    /* border: 2px solid; */
+}
+
+.publ2 {
+    margin-top: 1300px;
+}
+
+
+/* openacess */
+
+.open {
+    /* border: 2px solid; */
+    /* width: 300px; */
+    height: 1000px;
+    color: #2b2a2a;
+    text-align: justify;
+}
+
+.open pre p {
+    text-decoration: none;
+    background-color: #06506B;
+    color: white;
+    border-radius: 10px;
+    height: 35px;
+    text-align: center;
+    padding-top: 12px;
+}
+
+.open2 img {
+    border: 1px solid blue;
+    width: 180px;
+    height: 100px;
+}
+
+.open2 {
+    display: flex;
+}
+
+.open a {
+    color: #0784b1;
+    text-decoration: none;
+}
+
+.open a:hover {
+    text-decoration: underline;
+}
+
+
+/* certificate */
+
+.cer {
+    width: 600px;
+}
+
+.certificate {
+    float: left;
+    display: block;
+    /* list-style: none; */
+    /* text-decoration: none; */
+}
+
+.certificate ul li {
+    list-style-type: none;
+}
+
+.certificate form {
+    display: block;
+    /* justify-content: space-between; */
+}
+
+.certificate form label {
+    display: block;
+    width: 170px;
+    float: left;
+    padding: 10px 6px 0px 0px;
+    text-transform: uppercase;
+}
+
+.certificate form .submit {
+    background: #03354E;
+    padding: 10px 0;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    width: 381px;
+}
+
+
+/* special issue */
+
+.speci2 {
+    /* border: 2px solid; */
+    height: 700px;
+    /* display: inline; */
+}
+
+.speci2 h3 {
+    margin-top: 20px;
+    margin-left: 10px;
+    /* border: 2px solid violet; */
+    width: 490px;
+    height: 110px;
+    /* color: blue; */
+    font-size: 27px;
+    background-color: #D8D8D8;
+    /* text-decoration: none; */
+    border-radius: 8px;
+    text-align: center;
+}
+
+.speci2 h3 a {
+    color: #06506B;
+    text-decoration: none;
+    /* color: white; */
+}
+
+.speci2 h3 a:hover {
+    color: white;
+}
+
+.speci2 h3:hover {
+    background-color: #06506B;
+    color: white;
+    height: 70px;
+    font-size: 20px;
+    text-align: center;
+}
+
+
+/* page & copy right   */
+
+.page {
+    width: 500px;
+    border: 2px solid;
+    margin-top: 10px;
+    height: 20px;
+    border-radius: 5px;
+    background-color: #06506B;
+    text-align: center;
+    padding: 10px;
+}
+
+.page a {
+    /* border: 2px solid; */
+    /* font-size: 16px; */
+    color: white;
+    text-decoration: none;
+}
+
+
+/* review */
+
+.rev pre p {
+    text-decoration: none;
+    border-radius: 8px;
+    background-color: #06506B;
+    text-align: center;
+    color: white;
+    height: 30px;
+    padding-top: 10px;
+}
+
+.rev2 {
+    margin-top: 1700px;
+}
+
+.rev p {
+    text-align: justify;
+}
+
+
+/* correction */
+
+.corr {
+    text-align: justify;
+}
+
+.corr a {
+    color: #0784b1;
+    text-decoration: none;
+}
+
+.corr a:hover {
+    text-decoration: underline;
+}
+
+
+/* publish */
+
+.publish {
+    text-align: justify;
+}
+
+.publish a {
+    color: #0784b1;
+    text-decoration: none;
+}
+
+.publish a:hover {
+    text-decoration: underline;
+}
+
+.publish ol li {
+    margin-left: 30px;
+}
+
+.publish3 {
+    margin-top: 880px;
+}
+
+
+/* call */
+
+.call {
+    text-align: justify;
+}
+
+.call1 a {
+    color: #0784b1;
+    text-decoration: none;
+}
+
+.call1 a:hover {
+    text-decoration: underline;
+}
+
+.call1 ol li a {
+    color: #0784b1;
+    text-decoration: none;
+}
+
+.call1 ol li a:hover {
+    text-decoration: underline;
+}
+
+.call1 h2 {
+    color: #0784b1;
+    text-decoration: none;
+}
+
+.call h2:hover {
+    text-decoration: underline;
+}
